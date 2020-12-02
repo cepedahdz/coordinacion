@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Planeación Estrategia</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!--<script src="script.js" language="javascript" type="text/javascript"></script>-->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="shortcut icon" type="image/x-icon" href="img/logof.ico" />
+    </head>
+    <header class="Arriba">
+        <img src="img/uanllogo.png">
+        <h2>Operación de las Coordinaciones Academicas</h2>
+        <img src="img/logofime2.gif">
+    </header>
+    <body>
+        <div id="divdatos">
+            <div id="divver">
+                <h2>Planeación estrategica</h2>
+            </div>
+            <div id="divbla">
+                <h4>Nueva tarea</h4>
+                <form action="php/PlaneacionE.php" method="post" enctype="multipart/form-data">
+                    <table>
+                        <tr>
+                            <td>
+                                <br/><br/><label>Folio: </label>
+                            </td>
+                            <td>
+                                <br/><br/><input type="text" name="Fol_Tar" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <br/><br/><label>Número de Empleado: </label>
+                            </td>
+                            <td>
+                                <br/><br/><input type="text" name="Emp_Tar" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <br/><br/><label>Nombre de la tarea: </label>
+                            </td>
+                            <td>
+                                <br/><br/><input type="text" name="Nom_Tar" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <br/><br/><label>Descripción: </label>
+                            </td>
+                            <td>
+                                <br/><br/><input type="text" name="Des_Tar">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <br/><br/><label>Fecha limite: </label>
+                            </td>
+                            <td>
+                                <br/><br/><input type="date" name="Fec_Tar" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <br/><br/><input id="btnok" type="submit" value="Asignar">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div id="divver2">
+                <a href="OtrasPag/TarPend.php" >Pendientes</a>
+                <a href="Menu.html" >Regresar</a>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <h3>Facultad de ingenieria mecanica y electrica</h3>
+        <h4>Pedro de Alba SN, Niños Héroes, Ciudad Universitaria, San Nicolás de los Garza, N.L.</h4>
+    </footer>
+</html>

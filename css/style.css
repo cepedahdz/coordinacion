@@ -1,0 +1,221 @@
+header{
+    background-color: forestgreen;
+    width: 88%;
+    height: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+header img{
+    height: 100%;
+    width: 5%;
+    float: left;
+}
+header h2{
+    float: left;
+    color: white;
+    padding-left: 26%;
+    width: 39%;
+    padding-right: 25%;
+}
+footer{
+    background-color: forestgreen;
+    color: white;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+}
+footer h3{
+    float: left;
+    margin-left: 6%;
+}
+footer h4{
+    float: right;
+    margin-right: 6%;
+}
+body{
+    margin: 0;
+}
+.botonregresar{
+    background-color: forestgreen;
+    text-decoration: none;
+    color: white;
+    border: 0px solid;
+    font-size: 20px;
+    padding: 12px 35px 12px 35px;
+    float: right;
+    margin-right: 6%;
+}
+#divMenu{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 400px;
+    text-align: center;
+}
+#divMenu a{
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    float:left;
+    background-color: forestgreen;
+    text-decoration: none;
+    color: white;
+    border: 0px solid;
+    font-size: 20px;
+    width: 18%;
+    height: 200px;
+    padding-top: 200px;
+}
+#divMenu a:Hover{
+    background-color: darkgreen;
+    outline: none;
+}
+#divdatos{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    height: 460px; 
+}
+#divdatos div{
+    float: left;
+}
+#divver{
+    text-align: center;
+    background-color: forestgreen;
+    height: 460px;
+    width: 23%;
+    border-radius: 0px 15px 0px 15px;
+}
+#divver h2{
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 220px;
+}
+#divver2{
+    text-align: center;
+    background-color: forestgreen;
+    height: 460px;
+    width: 15%;
+    border-radius: 0px 15px 0px 15px;
+}
+#divver2 a{
+    background-color: darkgreen;
+    text-decoration: none;
+    color: aliceblue;
+    border: 0px solid;
+    font-size: 20px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 35px;
+    margin-bottom: 0px;
+    margin-top: 45%;
+    text-align: center;
+    height: 15%;
+    float: right;
+    border-radius: 15px 0px 15px 0px;
+}
+#divver2 a:hover{
+    background-color: white;
+    color: darkgreen;
+}
+#divver3{
+    text-align: center;
+    background-color: forestgreen;
+    height: 460px;
+    width: 15%;
+    border-radius: 0px 15px 0px 15px;
+}
+#divver3 a{
+    background-color: darkgreen;
+    text-decoration: none;
+    color: aliceblue;
+    border: 0px solid;
+    font-size: 20px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 35px;
+    margin-bottom: 0px;
+    margin-top: 22%;
+    text-align: center;
+    height: 15%;
+    float: right;
+    border-radius: 15px 0px 15px 0px;
+}
+#divver3 a:hover{
+    background-color: white;
+    color: darkgreen;
+}
+#divbla{
+    text-align:justify;
+    background-color: white;
+    height: 460px;
+    width: 62%;
+}
+#divbla h4{
+    padding-left: 40%;
+    background-color: darkgreen;
+    color: white;
+    margin-top: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+#divbla form{
+    padding-left: 25%;
+}
+#btnok{
+    background-color: darkgreen;
+    text-decoration: none;
+    color: aliceblue;
+    border: 0px solid;
+    font-size: 20px;
+    padding: 7px;
+    float: right;
+}
+#btnok:hover{
+    background-color: forestgreen;
+}
+#tabdat{
+    width:95%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin-left: 2.5%;
+}
+#tabdat td, #tabdat th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tabdat tr:nth-child(even){background-color: #f2f2f2;}
+
+#tabdat tr:hover {background-color: #ddd;}
+
+#tabdat th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+#divver22{
+    text-align: center;
+    background-color: forestgreen;
+    height: 460px;
+    width: 5%;
+    border-radius: 0px 15px 0px 15px;
+}
+#divbla22{
+    text-align:justify;
+    background-color: white;
+    height: 460px;
+    width: 80%;
+}
